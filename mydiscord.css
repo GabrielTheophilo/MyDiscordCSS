@@ -4,7 +4,7 @@
  * The codebase was never designed to be pretty, it was designed to require as little maintenance as possible.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
@@ -16,7 +16,7 @@ button {
 /* Root Variables */
 
  :root {
-	--font-primary: 'Karla', sans-serif;
+	--font-primary: 'Kanit', sans-serif;
 	--font-display: var(--font-primary) !important;
 	/* Dark Matter Variables */
 	--avatar-size: 42px;
@@ -25,7 +25,7 @@ button {
 	--background-solid: #7001a39a;
 	--background-solid-dark: #50208f9c;
 	--background-solid-darker: #b101e68c;
-	--accent: 37, 172, 232;
+	--accent: 220, 38, 232;
 	--accent-alt: 29, 101, 134;
 	--black: 0, 0, 0;
 	--white: 255, 255, 255;
@@ -48,7 +48,7 @@ button {
 	--background-secondary: var(--background-solid);
 	--background-accent: var(--background-solid);
 	--background-message-hover: rgba(var(--black), 0.4);
-	--channeltextarea-background: transparent;
+	--channeltextarea-background: rgba(151, 24, 168, 0.61);
 	--activity-card-background: rgba(var(--white), 0.05);
 	--deprecated-store-bg: transparent;
 	--background-modifier-hover: rgba(var(--black), 0.3);
@@ -85,14 +85,14 @@ button {
 	border-radius: 8px !important;
 	border: none !important;
 	border: 4px solid transparent !important;
-	background-color: rgba(var(--accent-alt), 1) !important;
+	background-color: rgb(234, 0, 255) !important;
 }
 
  ::-webkit-scrollbar-track {
 	visibility: visible !important;
 	border-radius: 8px !important;
 	border: 3px solid transparent !important;
-	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-color: rgba(151, 24, 168, 0.61) !important;
 	background-clip: padding-box !important;
 }
 
@@ -119,7 +119,7 @@ div[class*="typeWindows-"]>div[role="button"] {
 }
 
 div[class*="typeWindows-"]::after {
-	content: 'Discord';
+	content: 'Gabriel - NeoArrowHead';
 	font-weight: 5000;
 	line-height: 31px;
 	color: var(--text-muted);
